@@ -2,9 +2,10 @@ import axios from 'axios';
 import SimpleLightbox from 'simplelightbox';
 import 'simplelightbox/dist/simple-lightbox.min.css';
 import Notiflix from 'notiflix';
+import 'normalize.css';
 
 const BASE_URL = 'https://pixabay.com/api/';
-const API_KEY = '37748160-772b8b619fbcf8c997c27bd4b';
+const API_KEY = '36591536-01f29463e86e1d04773412779';
 const searchParams = new URLSearchParams({
   image_type: 'photo',
   orientation: 'horizontal',
